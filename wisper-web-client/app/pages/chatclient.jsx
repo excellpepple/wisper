@@ -1,4 +1,5 @@
 import Chatlist from "../components/chatlist";
+import ChatFeed from "../components/chatfeed";
 import MenuBar from "../components/menubar";
 
 export default function ChatClient(){
@@ -9,6 +10,7 @@ export default function ChatClient(){
         <main  className="flex ">
         <MenuBar/>
         <Chatlist/>
+        <ChatFeed/>
         </main>
     )
 }

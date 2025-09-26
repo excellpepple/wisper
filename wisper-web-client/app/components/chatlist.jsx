@@ -1,10 +1,17 @@
 import React from 'react';
+import ChatItem from './chatitem';
+import chatData from "../chat_dummy_data.json";
+
+
 
 function Chatlist(props) {
-    return (
-        <section>
+    
+    let conversations = chatData.conversations;
+    const chatItems = conversations.map(chat => <ChatItem  key={chat.id} chat={chat} />)
             
-        </section>
+    
+    return (
+        <ul className='top-0 h-screen w-80  border-r-2 '>{chatItems}</ul>
     );
 }
 

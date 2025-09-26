@@ -1,9 +1,6 @@
 import React from 'react';
 
-
-function Chatfeed(props) {
-    
-
+function Contactlist(props) {
     return (
         <div>
             
@@ -11,4 +8,4 @@ function Chatfeed(props) {
     );
 }
 
-export default Chatfeed;
+export default Contactlist;

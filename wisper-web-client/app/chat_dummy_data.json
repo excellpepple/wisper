@@ -1,0 +1,466 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Mike",
+      "username": "mike23",
+      "status": "online"
+    },
+    {
+      "id": "u2",
+      "name": "Ross",
+      "username": "ross322",
+      "status": "away"
+    },
+    {
+      "id": "u3",
+      "name": "Anna",
+      "username": "anna_b",
+      "status": "offline"
+    },
+    {
+      "id": "u4",
+      "name": "Lena",
+      "username": "lena88",
+      "status": "online"
+    },
+    {
+      "id": "u5",
+      "name": "David",
+      "username": "dave99",
+      "status": "online"
+    }
+  ],
+  "contacts": {
+    "u1": [
+      "u2",
+      "u3"
+    ],
+    "u2": [
+      "u1",
+      "u4"
+    ],
+    "u3": [
+      "u1"
+    ],
+    "u4": [
+      "u2",
+      "u5"
+    ],
+    "u5": [
+      "u4"
+    ]
+  },
+  "conversations": [
+    {
+      "id": "Mike&ross322",
+      "type": "private",
+      "members": [
+        "u1",
+        "u2"
+      ],
+      "feed": [
+        {
+          "sender": "u2",
+          "text": "Ping me when you\u2019re ready.",
+          "timestamp": "2025-09-20T10:00:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "All good here, what about you?",
+          "timestamp": "2025-09-20T10:02:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Who\u2019s online right now?",
+          "timestamp": "2025-09-20T10:06:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-20T10:11:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Count me in for the game.",
+          "timestamp": "2025-09-20T10:15:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-20T10:19:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-20T10:25:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Haha yeah, took me hours.",
+          "timestamp": "2025-09-20T10:26:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Sure thing, see you there.",
+          "timestamp": "2025-09-20T10:36:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Not yet, planning to later today.",
+          "timestamp": "2025-09-20T10:43:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Ping me when you\u2019re ready.",
+          "timestamp": "2025-09-20T10:49:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-20T10:50:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Sounds good \ud83d\udc4d",
+          "timestamp": "2025-09-20T10:52:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Can\u2019t talk right now, busy.",
+          "timestamp": "2025-09-20T11:02:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-20T11:07:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Haha yeah, took me hours.",
+          "timestamp": "2025-09-20T11:08:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-20T11:15:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-20T11:17:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Anyone pushed the code yet?",
+          "timestamp": "2025-09-20T11:24:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Hey, how\u2019s it going?",
+          "timestamp": "2025-09-20T11:33:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Not yet, planning to later today.",
+          "timestamp": "2025-09-20T11:34:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Sounds good \ud83d\udc4d",
+          "timestamp": "2025-09-20T11:42:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Who\u2019s online right now?",
+          "timestamp": "2025-09-20T11:46:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Sure thing, see you there.",
+          "timestamp": "2025-09-20T11:54:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-20T11:57:00Z"
+        }
+      ]
+    },
+    {
+      "id": "group_dev_room",
+      "type": "group",
+      "name": "Dev Room",
+      "members": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "feed": [
+        {
+          "sender": "u3",
+          "text": "Anyone pushed the code yet?",
+          "timestamp": "2025-09-19T14:00:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Sure thing, see you there.",
+          "timestamp": "2025-09-19T14:07:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T14:08:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "I\u2019ll take a look at it tomorrow.",
+          "timestamp": "2025-09-19T14:18:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T14:25:00Z"
+        },
+        {
+          "sender": "u3",
+          "text": "Let\u2019s play later \ud83c\udfae",
+          "timestamp": "2025-09-19T14:27:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-19T14:37:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Let\u2019s play later \ud83c\udfae",
+          "timestamp": "2025-09-19T14:43:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T14:52:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-19T15:00:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "I\u2019ll join after dinner.",
+          "timestamp": "2025-09-19T15:02:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-19T15:07:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-19T15:09:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T15:16:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-19T15:22:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-19T15:28:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-19T15:34:00Z"
+        },
+        {
+          "sender": "u3",
+          "text": "Can\u2019t talk right now, busy.",
+          "timestamp": "2025-09-19T15:35:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T15:38:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Not yet, planning to later today.",
+          "timestamp": "2025-09-19T15:48:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-19T15:58:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-19T16:01:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Count me in for the game.",
+          "timestamp": "2025-09-19T16:06:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-19T16:12:00Z"
+        },
+        {
+          "sender": "u1",
+          "text": "Sounds good \ud83d\udc4d",
+          "timestamp": "2025-09-19T16:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "gaming_friends",
+      "type": "group",
+      "name": "Gaming Friends",
+      "members": [
+        "u2",
+        "u4",
+        "u5"
+      ],
+      "feed": [
+        {
+          "sender": "u4",
+          "text": "Anyone pushed the code yet?",
+          "timestamp": "2025-09-21T19:00:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "We should schedule a call.",
+          "timestamp": "2025-09-21T19:06:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-21T19:12:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Not yet, planning to later today.",
+          "timestamp": "2025-09-21T19:18:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "What\u2019s the plan tonight?",
+          "timestamp": "2025-09-21T19:26:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-21T19:27:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "I\u2019ll take a look at it tomorrow.",
+          "timestamp": "2025-09-21T19:29:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "All good here, what about you?",
+          "timestamp": "2025-09-21T19:33:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Count me in for the game.",
+          "timestamp": "2025-09-21T19:38:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Did you check the new feature yet?",
+          "timestamp": "2025-09-21T19:39:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Let\u2019s play later \ud83c\udfae",
+          "timestamp": "2025-09-21T19:43:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Anyone pushed the code yet?",
+          "timestamp": "2025-09-21T19:46:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Hey, how\u2019s it going?",
+          "timestamp": "2025-09-21T19:52:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Can\u2019t talk right now, busy.",
+          "timestamp": "2025-09-21T19:53:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Who\u2019s online right now?",
+          "timestamp": "2025-09-21T19:56:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-21T19:57:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Awesome work on the update.",
+          "timestamp": "2025-09-21T20:05:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Anyone pushed the code yet?",
+          "timestamp": "2025-09-21T20:15:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "All good here, what about you?",
+          "timestamp": "2025-09-21T20:16:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "Count me in for the game.",
+          "timestamp": "2025-09-21T20:26:00Z"
+        },
+        {
+          "sender": "u5",
+          "text": "Let\u2019s play later \ud83c\udfae",
+          "timestamp": "2025-09-21T20:35:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Let\u2019s play later \ud83c\udfae",
+          "timestamp": "2025-09-21T20:40:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Cool, let\u2019s test it together.",
+          "timestamp": "2025-09-21T20:46:00Z"
+        },
+        {
+          "sender": "u4",
+          "text": "That bug was tricky to fix!",
+          "timestamp": "2025-09-21T20:50:00Z"
+        },
+        {
+          "sender": "u2",
+          "text": "Hey, how\u2019s it going?",
+          "timestamp": "2025-09-21T20:58:00Z"
+        }
+      ]
+    }
+  ]
+}
