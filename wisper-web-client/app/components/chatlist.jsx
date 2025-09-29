@@ -11,7 +11,7 @@ function Chatlist(props) {
             
     
     return (
-        <ul className='top-0 h-screen w-80  border-r-2 '>{chatItems}</ul>
+        <ul className='top-0 h-screen w-80  border-r-2 border-gray-400 '>{chatItems}</ul>
     );
 }
 

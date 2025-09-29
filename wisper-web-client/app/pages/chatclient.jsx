@@ -7,7 +7,7 @@ export default function ChatClient(){
 
 
     return(
-        <main  className="flex ">
+        <main  className="flex bg-white text-black">
         <MenuBar/>
         <Chatlist/>
         <ChatFeed/>

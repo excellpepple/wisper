@@ -2,7 +2,7 @@ import React from 'react';
 
 function MenuBar(props) {
     return (
-        <div className='bg-indigo-900/10 top-0 h-screen w-24 p-4 overflow-visible backdrop-blur-lg border-r-4 border-amber-400/50'>
+        <div className='bg-indigo-900/10 top-0 h-screen w-24 p-4 overflow-visible backdrop-blur-lg border-r-4 border-gray-400'>
             <nav className='flex flex-col h-full'>
                 <button className='mt-10'>Chats</button>
                 <button className='mt-10'>Contacts</button>
